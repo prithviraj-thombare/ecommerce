@@ -1,0 +1,52 @@
+{
+    "products": [
+        {
+          "name": "one plus 6T",
+          "id": 1,
+          "price": 60000,
+          "Image": "/assets/images/oneplus_ace_2_pro-.jpg",
+          "isAvailable":false,
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus aliquam culpa animi at exercitationem nostrum"
+        },
+        {
+          "name": "MI TV 43.inch",
+          "id": 2,
+          "price": 23000,
+          "Image": "/assets/images/pms_1587896173.03128019!400x400!85.png",
+          "isAvailable":true,
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus aliquam culpa animi at exercitationem nostrum"
+        },
+        {
+          "name": "Vivo Y93",
+          "id": 3,
+          "price": 14000,
+          "Image": "/assets/images/vivo-y93.webp",
+          "isAvailable":true,
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus aliquam culpa animi at exercitationem nostrum"
+        },
+        {
+          "name": "Whirlpool Washing machine",
+          "id": 4,
+          "price": 63000,
+          "Image": "/assets/images/Best-Whirlpool-Washing-Machines.jpg",
+          "isAvailable":false,
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus aliquam culpa animi at exercitationem nostrum"
+        },
+        {
+          "name": "Asus Dextop PC",
+          "id": 5,
+          "price": 123000,
+          "Image": "/assets/images/PC.webp",
+          "isAvailable":false,
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus aliquam culpa animi at exercitationem nostrum"
+        },
+        {
+          "name": "LG AC",
+          "id": 6,
+          "price": 43000,
+          "Image": "/assets/images/LG-Article-Air-Conditioner-Energy-01-M.avif",
+          "isAvailable":false,
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus aliquam culpa animi at exercitationem nostrum"
+        }
+    ]   
+}

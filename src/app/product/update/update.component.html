@@ -1,0 +1,20 @@
+<form [formGroup]="updateForm" *ngIf="products$ | async as prod" (ngsubmit)>
+    <div>
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="from-control" id="name" formControlName="name" [(ngModel)]="prod.name">
+    </div>
+    <div class="alert alert-danger" *ngIf="f['name'].invalid && f['name'].touched">
+        Name is Required
+    </div>
+    <div>
+        <label for="price" class="form-label">Price</label>
+        <input type="number" class="from-control" id="price" formControlName="price" [(ngModel)]="prod.price">
+    </div>
+    <div class="alert alert-danger" *ngIf="f['price'].invalid && f['price'].touched">
+        Price is Required
+    </div>
+    <div>
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="from-control" id="name" formControlName="name" [(ngModel)]="prod.name">
+    </div>
+</form>
